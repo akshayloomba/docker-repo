@@ -1,0 +1,163 @@
+1  pt-get update
+    2  apt-get update
+    3  apt-get remove docker-engine docker.io
+    4  apt install docker.io
+    5  systemctl start docker
+    6  systemctl enable docker
+    7  docker --version
+    8  apt-get update
+    9  apt-get install git
+   10  git --version
+   11  git clone https://github.com/akshayloomba/docker-repo.git
+   12  git config --global user.name "Akshay Loomba"
+   13  git config --global user.email "akshay.nice@gmail.com"
+   14  docker login
+   15  docker pull nginx
+   16  doker images
+   17  docker images
+   18  docker container run -dt -name mywebcontainer -p 8080:80 nginx
+   19  docker container run -dt --name mywebcontainer -p 8080:80 nginx
+   20  docker container exec -it mywebcontainer bash
+   21  cd /usr/share/nginx/html/
+   22  cd /user/share/nginx
+   23  ls
+   24  docker container exec -it mywebcontainer bash
+   25  apt-get update
+   26  apt-get install vim -y
+   27  docker container exec -it mywebcontainer bash
+   28  docker container stop mywebcontainer
+   29  docker container start mywebcontainer
+   30  docker container rm mywebcontainer
+   31  docker container kill mywebcontainer
+   32  docker container stop $(docker ps -qa)
+   33  docker container run -dt --name mywebcontainer busybox ping -c10 google.com
+   34  docker container run -dt --name mywebcontainer1 busybox ping -c10 google.com
+   35  docker ps
+   36  docker ps -a
+   37  docker container run -dt --name mywebcontainer1 busybox ping -c10 google.com
+   38  docker container kill mywebcontainer1
+   39  docker container stop mywebcontainer1
+   40  docker container kill mywebcontainer
+   41  docker container kill mywebcontainer1
+   42  docker container run -dt --name mycontainer1 busybox ping -c10 google.com
+   43  docker containre logs mycontainer1
+   44  docker container logs mycontainer1
+   45  docker system df -v
+   46  docker container inspect mycontainer1
+   47  docker container run -dt --name mycontainer1 busybox ping -c10 google.com
+   48  apt-get update
+   49  apt-get install git
+   50  git --version
+   51  git clone https://github.com/akshayloomba/docker-repo.git
+   52  git config --global user.name Akshay.nice@gmail.com
+   53  git config user.email akshay.nice@gmail.com
+   54  git config user.email aksh.loomba@gmail.com
+   55  git config --global user.email akshay.nice@gmail.com
+   56  exit
+   57  cd..
+   58  cd
+   59  nano dockerfile
+   60  vi sample.py
+   61  vi dockerfile
+   62  cd /var/www/html/
+   63  ls
+   64  ltr
+   65  cd dockerrrrrrrrrrrrrrrrrrrr
+   66  cd docker
+   67  ls
+   68  docker image build -t myimage
+   69  docker image build -t Dockerfile
+   70  ls
+   71  docker image build -t dockerfile
+   72  docker image build -t dockerfile .
+   73  docker container run -dt --name mycontainer -p 8080:80 nginx
+   74  docker ps
+   75  docker image build -t dockerfile .
+   76  ltr
+   77  ls
+   78  ls -d */
+   79  ls -d
+   80  ls
+   81  index.html
+   82  vi index.html
+   83  docker image build -t dockerfile .
+   84  ls
+   85  vi dockerfile
+   86  docker container run -dt --name mycontainer -p 8080:80 nginx
+   87  docker container run -dt --name mycontainer1 -p 8080:80 nginx
+   88  docker container run -dt --name mycontainer5 -p 8080:80 nginx
+   89  docker ls
+   90  docker ps
+   91  ls
+   92  docker image build -t dockerfile .
+   93  ls
+   94  dockerfile
+   95  vi dockerfile
+   96  ls
+   97  vi dockerfile
+   98  docker image build -t dockerfile .
+   99  vi dockerfile
+  100  docker image build -t dockerfile .
+  101  docker container run -dt --name mycontainer6 -p 8080:80 nginx
+  102  vi dockerfile
+  103  docker image build -t dockerfile .
+  104  docker container run -dt --name mycontainer6 -p 8080:85 nginx
+  105  docker container run -dt --name mycontainer8 -p 8080:85 nginx
+  106  docker ps
+  107  docker container run -dt --name mycontainer7 -p
+  108  ls
+  109  clear
+  110  ls
+  111  dockerfile
+  112  vi dockerfile
+  113  docker image build -t dockerfile .
+  114  ls
+  115  sample.py
+  116  vi sample.py
+  117  docker container run dockerfile
+  118  vi cokerfile
+  119  vi myLamp
+  120  docker image build -t myLamp .
+  121  vi myLamp
+  122  vi mylampstack
+  123  docker image build -t mylamp .
+  124  docker image build -t mylamppost .
+  125  docker image build -t mylampstack .
+  126  vi lampstack
+  127  vi mylampstack
+  128  docker image build -t mylampstack .
+  129  docker ps
+  130  vi mylampstack
+  131  docker image build -t mylampstack .
+  132  ls
+  133  rm cokerfile 
+  134  rm lampstack
+  135  rm myLamp
+  136  ls
+  137  vi mylampstack
+  138  vi dockerfile 
+  139  docker image build -t mylampstack .
+  140  vi dockerfile 
+  141  docker image build -t mylampstack .
+  142  vi dockerfile 
+  143  docker image build -t mylampstack .
+  144  vi dockerfile 
+  145  docker image build -t mylampstack .
+  146  vi dockerfile 
+  147  docker image build -t mylampstack .
+  148  vi dockerfile 
+  149  docker image build -t mylampstack .
+  150  vi dockerfile 
+  151  docker image build -t mylampstack .
+  152  docker container run dockerfile
+  153  docker container run -dt --name mycontainer6 mylampstack
+  154  docker images
+  155  docker container run mylampstack
+  156  ls
+  157  vi sample.py
+  158  vi dockerfile
+  159  docker image build -t mypython .
+  160  docker container run -dt --name mypythoncont -p 8080:80 mypython
+  161  docker container run mypython
+  162  history
+
